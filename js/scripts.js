@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 console.log('jQ loaded');
 
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
 var bands = ['Cage the Elephant', 'Mitski', 'Lana Del Rey'];
 var html = '';
 
